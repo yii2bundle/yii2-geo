@@ -1,5 +1,5 @@
-[![Latest Stable Version](https://poser.pugx.org/yii2lab/yii2-geo/v/stable.png)](https://packagist.org/packages/yii2lab/yii2-geo)
-[![Total Downloads](https://poser.pugx.org/yii2lab/yii2-geo/downloads.png)](https://packagist.org/packages/yii2lab/yii2-geo)
+[![Latest Stable Version](https://poser.pugx.org/yii2bundle/yii2-geo/v/stable.png)](https://packagist.org/packages/yii2bundle/yii2-geo)
+[![Total Downloads](https://poser.pugx.org/yii2bundle/yii2-geo/downloads.png)](https://packagist.org/packages/yii2bundle/yii2-geo)
 
 ## Описание
 
