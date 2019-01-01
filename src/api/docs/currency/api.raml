@@ -1,0 +1,41 @@
+description: "Валюты"
+get:
+    description: Возвращает список валют
+    is: !include /../../../vendor/yii2lab/yii2-rest/src/domain/docs/is/all.raml
+    responses:
+        200:
+            body:
+                application/json:
+                    example: !include example/all-response-body.json
+post:
+    securedBy: [Auth]
+    description: "Создать валюту"
+    is: !include /../../../vendor/yii2lab/yii2-rest/src/domain/docs/is/create.raml
+    body:
+        application/json:
+            example: !include example/create-request-body.json
+
+/{id}:
+    uriParameters:
+        id:
+            description: "ID валюты"
+            type: integer
+    get:
+        description: "Возвращает валюту"
+        is: !include /../../../vendor/yii2lab/yii2-rest/src/domain/docs/is/one.raml
+        responses:
+            200:
+                body:
+                    application/json:
+                        example: !include example/one-response-body.json
+    put:
+        securedBy: [Auth]
+        description: "Изменить валюту"
+        is: !include /../../../vendor/yii2lab/yii2-rest/src/domain/docs/is/update.raml
+        body:
+            application/json:
+                example: !include example/update-request-body.json
+    delete:
+        securedBy: [Auth]
+        description: "Удалить валюту"
+        is: !include /../../../vendor/yii2lab/yii2-rest/src/domain/docs/is/delete.raml
