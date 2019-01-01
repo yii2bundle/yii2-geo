@@ -8,7 +8,7 @@ use yii2lab\test\Test\Unit;
 
 class PhoneTest extends Unit {
 	
-	const PACKAGE = 'yii2lab/yii2-geo';
+	const PACKAGE = 'yii2bundle/yii2-geo';
 	
 	public function testAll() {
 		$collection = \App::$domain->geo->phone->all();

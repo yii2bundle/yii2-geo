@@ -14,7 +14,7 @@ use yii2lab\geo\domain\fixtures\GeoRegionFixture;
 class CityTest extends Unit
 {
 	
-	const PACKAGE = 'yii2lab/yii2-geo';
+	const PACKAGE = 'yii2bundle/yii2-geo';
 	
 	public function _before()
     {
