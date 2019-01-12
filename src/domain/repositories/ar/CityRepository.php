@@ -2,9 +2,9 @@
 
 namespace yii2lab\geo\domain\repositories\ar;
 
-use yii2lab\domain\repositories\ActiveArRepository;
+use yii2lab\extension\activeRecord\repositories\base\BaseActiveArRepository;
 
-class CityRepository extends ActiveArRepository {
+class CityRepository extends BaseActiveArRepository {
 	
 	protected $schemaClass = true;
 	

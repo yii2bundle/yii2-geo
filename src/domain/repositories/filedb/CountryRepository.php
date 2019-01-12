@@ -2,9 +2,9 @@
 
 namespace yii2lab\geo\domain\repositories\filedb;
 
-use yii2lab\domain\repositories\ActiveFiledbRepository;
+use yii2lab\extension\filedb\repositories\base\BaseActiveFiledbRepository;
 
-class CountryRepository extends ActiveFiledbRepository {
+class CountryRepository extends BaseActiveFiledbRepository {
 	
 	protected $schemaClass = true;
 	
