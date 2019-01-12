@@ -2,8 +2,8 @@
 
 namespace yii2lab\geo\domain\services;
 
-use yii2lab\domain\services\ActiveBaseService;
+use yii2lab\domain\services\base\BaseActiveService;
 
-class CurrencyService extends ActiveBaseService {
+class CurrencyService extends BaseActiveService {
 	
 }
