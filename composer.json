@@ -13,7 +13,9 @@
 	"autoload": {
 		"psr-4": {
 			"yii2lab\\geo\\": "src",
-			"yii2lab\\geo\\tests\\": "tests"
+			"yii2lab\\geo\\tests\\": "tests",
+			"yii2bundle\\geo\\": "src",
+			"yii2bundle\\geo\\tests\\": "tests"
 		}
 	},
 	"require": {
