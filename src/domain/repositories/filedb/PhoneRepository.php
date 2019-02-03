@@ -2,7 +2,7 @@
 
 namespace yii2lab\geo\domain\repositories\filedb;
 
-use yii2lab\extension\filedb\repositories\base\BaseActiveFiledbRepository;
+use yii2rails\extension\filedb\repositories\base\BaseActiveFiledbRepository;
 use yii2lab\geo\domain\interfaces\repositories\PhoneInterface;
 
 /**

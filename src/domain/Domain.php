@@ -2,7 +2,7 @@
 
 namespace yii2lab\geo\domain;
 
-use yii2lab\domain\enums\Driver;
+use yii2rails\domain\enums\Driver;
 
 /**
  * Class Domain
@@ -15,7 +15,7 @@ use yii2lab\domain\enums\Driver;
  * @property-read \yii2lab\geo\domain\interfaces\services\PhoneInterface $phone
  * @property-read \yii2lab\geo\domain\interfaces\repositories\RepositoriesInterface $repositories
  */
-class Domain extends \yii2lab\domain\Domain {
+class Domain extends \yii2rails\domain\Domain {
 	
 	public function config() {
 		return [

@@ -2,7 +2,7 @@
 
 namespace yii2lab\geo\domain\helpers;
 
-use yii2lab\extension\common\helpers\StringHelper;
+use yii2rails\extension\common\helpers\StringHelper;
 use yii2lab\geo\domain\entities\PhoneInfoEntity;
 
 class PhoneHelper {

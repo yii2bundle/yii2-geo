@@ -4,8 +4,8 @@ namespace tests\functional\services;
 
 use yii2lab\test\helpers\DataHelper;
 use yii2lab\test\Test\Unit;
-use yii2lab\domain\BaseEntity;
-use yii2lab\domain\data\Query;
+use yii2rails\domain\BaseEntity;
+use yii2rails\domain\data\Query;
 use yii2lab\geo\domain\fixtures\GeoCityFixture;
 use yii2lab\geo\domain\fixtures\GeoCountryFixture;
 use yii2lab\geo\domain\fixtures\GeoCurrencyFixture;

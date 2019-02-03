@@ -72,7 +72,7 @@ return [
 	'components' => [
 		// ...
 		'geo' => [
-			'class' => 'yii2lab\domain\Domain',
+			'class' => 'yii2rails\domain\Domain',
 			'path' => 'yii2lab\geo\domain',
 			'repositories' => [
 				'region',

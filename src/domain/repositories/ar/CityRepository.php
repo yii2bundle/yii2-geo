@@ -2,7 +2,7 @@
 
 namespace yii2lab\geo\domain\repositories\ar;
 
-use yii2lab\extension\activeRecord\repositories\base\BaseActiveArRepository;
+use yii2rails\extension\activeRecord\repositories\base\BaseActiveArRepository;
 
 class CityRepository extends BaseActiveArRepository {
 	

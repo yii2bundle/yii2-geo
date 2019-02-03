@@ -3,11 +3,11 @@
 namespace yii2lab\geo\domain\services;
 
 use yii\web\NotFoundHttpException;
-use yii2lab\domain\data\Query;
+use yii2rails\domain\data\Query;
 use yii2lab\geo\domain\entities\PhoneEntity;
 use yii2lab\geo\domain\helpers\PhoneHelper;
 use yii2lab\geo\domain\interfaces\services\PhoneInterface;
-use yii2lab\domain\services\base\BaseActiveService;
+use yii2rails\domain\services\base\BaseActiveService;
 
 /**
  * Class PhoneService

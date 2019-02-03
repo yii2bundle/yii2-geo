@@ -2,7 +2,7 @@
 
 namespace yii2lab\geo\domain\entities;
 
-use yii2lab\domain\BaseEntity;
+use yii2rails\domain\BaseEntity;
 
 class CityEntity extends BaseEntity {
 	

@@ -2,8 +2,8 @@
 
 namespace yii2lab\geo\domain\interfaces\services;
 
-use yii2lab\domain\data\Query;
-use yii2lab\domain\interfaces\services\CrudInterface;
+use yii2rails\domain\data\Query;
+use yii2rails\domain\interfaces\services\CrudInterface;
 use yii2lab\geo\domain\entities\PhoneEntity;
 use yii2lab\geo\domain\entities\PhoneInfoEntity;
 
