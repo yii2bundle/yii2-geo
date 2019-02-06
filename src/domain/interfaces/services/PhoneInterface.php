@@ -27,4 +27,6 @@ interface PhoneInterface extends CrudInterface {
 	public function parse(string $phone);
 	public function format(string $phone);
 	public function isValid(string $phone);
+	public function validate(string $phone);
+	
 }

@@ -2,6 +2,8 @@
 
 namespace yii2lab\geo\domain\services;
 
+use Yii;
+use yii\base\InvalidArgumentException;
 use yii\web\NotFoundHttpException;
 use yii2rails\domain\data\Query;
 use yii2lab\geo\domain\entities\PhoneEntity;
@@ -48,6 +50,14 @@ class PhoneService extends BaseActiveService implements PhoneInterface {
 			return true;
 		} catch(NotFoundHttpException $e) {
 			return false;
+		}
+	}
+	
+	public function validate(string $phone) {
+		try {
+			$this->oneByPhone($phone);
+		} catch(NotFoundHttpException $e) {
+			throw new InvalidArgumentException(Yii::t('geo/phone', 'bad_format'));
 		}
 	}
 }
