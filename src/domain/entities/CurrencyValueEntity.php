@@ -13,19 +13,21 @@ use yii2rails\domain\values\TimeValue;
  * @property $code
  * @property $value
  * @property $publicated_at
- *
+ * @property CurrencyEntity $currency
  */
 class CurrencyValueEntity extends BaseEntity {
 
     protected $code;
 	protected $value;
 	protected $publicated_at;
+	protected $currency;
 	
 	public function fieldType() {
 		return [
 			'code' => 'string',
 			'value' => 'float',
 			'publicated_at' => TimeValue::class,
+			'currency' => CurrencyEntity::class,
 		];
 	}
 	

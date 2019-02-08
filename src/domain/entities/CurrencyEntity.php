@@ -12,6 +12,7 @@ use yii2rails\domain\BaseEntity;
  * @property $id
  * @property $country_id
  * @property $code
+ * @property $char
  * @property $name
  * @property $description
  * @property $country
@@ -23,10 +24,11 @@ class CurrencyEntity extends BaseEntity {
     protected $country_id;
     protected $code;
     protected $name;
+	protected $char;
     protected $description;
     protected $country;
 
-    public function rules() {
+	public function rules() {
         return [
             [['id', 'name', 'code', 'country_id'], 'required'],
             [['name', 'code'], 'trim'],

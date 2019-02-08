@@ -11,6 +11,8 @@ use yii2rails\domain\BaseEntity;
  *
  * @property $id
  * @property $name
+ * @property $alpha2
+ * @property $alpha3
  * @property $currency
  * @property $phone
  */
@@ -18,6 +20,8 @@ class CountryEntity extends BaseEntity {
 	
 	protected $id;
     protected $name;
+	protected $alpha2;
+	protected $alpha3;
     protected $currency;
 	protected $phone;
     //protected $cities;

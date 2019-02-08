@@ -18,6 +18,7 @@ class m171207_160208_create_geo_currency_table extends Migration
 			'id' => $this->primaryKey(),
 			'country_id' => $this->integer(),
 			'code' => $this->string(3),
+			'char' => $this->string(1),
 			'name' => $this->string(45),
 			'description' => $this->string(255),
 		];

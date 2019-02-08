@@ -17,6 +17,8 @@ class m171207_004915_create_geo_country_table extends Migration
 		return [
 			'id' => $this->primaryKey(),
 			'name' => $this->string(128),
+			'alpha2' => $this->string(2),
+			'alpha3' => $this->string(3),
 		];
 	}
 

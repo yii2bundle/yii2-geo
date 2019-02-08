@@ -6,6 +6,6 @@ use yii2rails\extension\activeRecord\repositories\base\BaseActiveArRepository;
 
 class CurrencyValueRepository extends BaseActiveArRepository {
 	
-	//protected $schemaClass = true;
+	protected $schemaClass = true;
 	
 }
