@@ -12,6 +12,7 @@ use yii2rails\domain\enums\Driver;
  * @property \yii2lab\geo\domain\services\CityService $city
  * @property \yii2lab\geo\domain\services\CountryService $country
  * @property \yii2lab\geo\domain\services\CurrencyService $currency
+ * @property \yii2lab\geo\domain\services\CurrencyValueService $currencyValue
  * @property-read \yii2lab\geo\domain\interfaces\services\PhoneInterface $phone
  * @property-read \yii2lab\geo\domain\interfaces\repositories\RepositoriesInterface $repositories
  */
@@ -24,6 +25,8 @@ class Domain extends \yii2rails\domain\Domain {
 				'city' => Driver::slave(),
 				'country' => Driver::slave(),
 				'currency' => Driver::slave(),
+				'currencyValue' => Driver::slave(),
+				'currencyTransfer' => 'nationalbankKz',
 				'phone' => Driver::FILEDB,
 			],
 			'services' => [
@@ -31,6 +34,7 @@ class Domain extends \yii2rails\domain\Domain {
 				'city',
 				'country',
 				'currency',
+				'currencyValue',
 				'phone',
 			],
 		];

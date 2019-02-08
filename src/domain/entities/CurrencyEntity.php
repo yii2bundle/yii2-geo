@@ -4,6 +4,19 @@ namespace yii2lab\geo\domain\entities;
 
 use yii2rails\domain\BaseEntity;
 
+/**
+ * Class CurrencyEntity
+ *
+ * @package yii2lab\geo\domain\entities
+ *
+ * @property $id
+ * @property $country_id
+ * @property $code
+ * @property $name
+ * @property $description
+ * @property $country
+ *
+ */
 class CurrencyEntity extends BaseEntity {
 
     protected $id;
