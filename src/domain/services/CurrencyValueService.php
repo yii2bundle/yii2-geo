@@ -11,9 +11,7 @@ class CurrencyValueService extends BaseActiveService {
 	
 	public function all(Query $query = null) {
 		$query = Query::forge($query);
-		$timeValue = new TimeValue;
-		$timeValue->setFromFormat(date('Y-m-d 00:00:00'), TimeValue::FORMAT_WEB);
-		//prr($timeValue->getInFormat(TimeValue::FORMAT_WEB),1,1);
+		$timeValue = $this->forgeTodayTimeValue();
 		$query->andWhere(['publicated_at' => $timeValue->getInFormat(TimeValue::FORMAT_WEB)]);
 		/** @var CurrencyValueEntity[] $collection */
 		$collection = parent::all($query);
@@ -26,5 +24,11 @@ class CurrencyValueService extends BaseActiveService {
 		}
 		return $collection;
 	}
-	
+
+	private function forgeTodayTimeValue() {
+        $dateTime = new \DateTime;
+        $dateTime->setTime(0,0,0,0);
+        $timeValue = new TimeValue($dateTime);
+        return $timeValue;
+    }
 }
