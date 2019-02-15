@@ -7,11 +7,14 @@
 		"country": {
 			"id": 1894,
 			"name": "Казахстан",
+			"alpha2": null,
+			"alpha3": null,
 			"currency": {
 				"id": 1,
 				"country_id": 1894,
 				"code": "KZT",
 				"name": "Казахский тенге",
+				"char": null,
 				"description": null,
 				"country": null
 			},
@@ -24,11 +27,14 @@
 			"country": {
 				"id": 1894,
 				"name": "Казахстан",
+				"alpha2": null,
+				"alpha3": null,
 				"currency": {
 					"id": 1,
 					"country_id": 1894,
 					"code": "KZT",
 					"name": "Казахский тенге",
+					"char": null,
 					"description": null,
 					"country": null
 				},
@@ -43,11 +49,14 @@
 					"country": {
 						"id": 1894,
 						"name": "Казахстан",
+						"alpha2": null,
+						"alpha3": null,
 						"currency": {
 							"id": 1,
 							"country_id": 1894,
 							"code": "KZT",
 							"name": "Казахский тенге",
+							"char": null,
 							"description": null,
 							"country": null
 						},
@@ -69,11 +78,14 @@
 					"country": {
 						"id": 1894,
 						"name": "Казахстан",
+						"alpha2": null,
+						"alpha3": null,
 						"currency": {
 							"id": 1,
 							"country_id": 1894,
 							"code": "KZT",
 							"name": "Казахский тенге",
+							"char": null,
 							"description": null,
 							"country": null
 						},
@@ -95,11 +107,14 @@
 					"country": {
 						"id": 1894,
 						"name": "Казахстан",
+						"alpha2": null,
+						"alpha3": null,
 						"currency": {
 							"id": 1,
 							"country_id": 1894,
 							"code": "KZT",
 							"name": "Казахский тенге",
+							"char": null,
 							"description": null,
 							"country": null
 						},
@@ -121,11 +136,14 @@
 					"country": {
 						"id": 1894,
 						"name": "Казахстан",
+						"alpha2": null,
+						"alpha3": null,
 						"currency": {
 							"id": 1,
 							"country_id": 1894,
 							"code": "KZT",
 							"name": "Казахский тенге",
+							"char": null,
 							"description": null,
 							"country": null
 						},
@@ -147,11 +165,14 @@
 					"country": {
 						"id": 1894,
 						"name": "Казахстан",
+						"alpha2": null,
+						"alpha3": null,
 						"currency": {
 							"id": 1,
 							"country_id": 1894,
 							"code": "KZT",
 							"name": "Казахский тенге",
+							"char": null,
 							"description": null,
 							"country": null
 						},
@@ -173,11 +194,14 @@
 					"country": {
 						"id": 1894,
 						"name": "Казахстан",
+						"alpha2": null,
+						"alpha3": null,
 						"currency": {
 							"id": 1,
 							"country_id": 1894,
 							"code": "KZT",
 							"name": "Казахский тенге",
+							"char": null,
 							"description": null,
 							"country": null
 						},
@@ -199,11 +223,14 @@
 					"country": {
 						"id": 1894,
 						"name": "Казахстан",
+						"alpha2": null,
+						"alpha3": null,
 						"currency": {
 							"id": 1,
 							"country_id": 1894,
 							"code": "KZT",
 							"name": "Казахский тенге",
+							"char": null,
 							"description": null,
 							"country": null
 						},
@@ -225,11 +252,14 @@
 					"country": {
 						"id": 1894,
 						"name": "Казахстан",
+						"alpha2": null,
+						"alpha3": null,
 						"currency": {
 							"id": 1,
 							"country_id": 1894,
 							"code": "KZT",
 							"name": "Казахский тенге",
+							"char": null,
 							"description": null,
 							"country": null
 						},
@@ -251,11 +281,14 @@
 					"country": {
 						"id": 1894,
 						"name": "Казахстан",
+						"alpha2": null,
+						"alpha3": null,
 						"currency": {
 							"id": 1,
 							"country_id": 1894,
 							"code": "KZT",
 							"name": "Казахский тенге",
+							"char": null,
 							"description": null,
 							"country": null
 						},
@@ -277,11 +310,14 @@
 					"country": {
 						"id": 1894,
 						"name": "Казахстан",
+						"alpha2": null,
+						"alpha3": null,
 						"currency": {
 							"id": 1,
 							"country_id": 1894,
 							"code": "KZT",
 							"name": "Казахский тенге",
+							"char": null,
 							"description": null,
 							"country": null
 						},
@@ -303,11 +339,14 @@
 					"country": {
 						"id": 1894,
 						"name": "Казахстан",
+						"alpha2": null,
+						"alpha3": null,
 						"currency": {
 							"id": 1,
 							"country_id": 1894,
 							"code": "KZT",
 							"name": "Казахский тенге",
+							"char": null,
 							"description": null,
 							"country": null
 						},
@@ -329,11 +368,14 @@
 					"country": {
 						"id": 1894,
 						"name": "Казахстан",
+						"alpha2": null,
+						"alpha3": null,
 						"currency": {
 							"id": 1,
 							"country_id": 1894,
 							"code": "KZT",
 							"name": "Казахский тенге",
+							"char": null,
 							"description": null,
 							"country": null
 						},
@@ -355,11 +397,14 @@
 					"country": {
 						"id": 1894,
 						"name": "Казахстан",
+						"alpha2": null,
+						"alpha3": null,
 						"currency": {
 							"id": 1,
 							"country_id": 1894,
 							"code": "KZT",
 							"name": "Казахский тенге",
+							"char": null,
 							"description": null,
 							"country": null
 						},
@@ -381,11 +426,14 @@
 					"country": {
 						"id": 1894,
 						"name": "Казахстан",
+						"alpha2": null,
+						"alpha3": null,
 						"currency": {
 							"id": 1,
 							"country_id": 1894,
 							"code": "KZT",
 							"name": "Казахский тенге",
+							"char": null,
 							"description": null,
 							"country": null
 						},
@@ -407,11 +455,14 @@
 					"country": {
 						"id": 1894,
 						"name": "Казахстан",
+						"alpha2": null,
+						"alpha3": null,
 						"currency": {
 							"id": 1,
 							"country_id": 1894,
 							"code": "KZT",
 							"name": "Казахский тенге",
+							"char": null,
 							"description": null,
 							"country": null
 						},
