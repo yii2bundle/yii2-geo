@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\geo\domain\fixtures;
+namespace yii2bundle\geo\domain\fixtures;
 
 use yii\test\ActiveFixture;
 

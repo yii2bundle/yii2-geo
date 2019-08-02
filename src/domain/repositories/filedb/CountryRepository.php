@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\geo\domain\repositories\filedb;
+namespace yii2bundle\geo\domain\repositories\filedb;
 
 use yii2rails\extension\filedb\repositories\base\BaseActiveFiledbRepository;
 

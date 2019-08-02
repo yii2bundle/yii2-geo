@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\geo\domain\repositories\schema;
+namespace yii2bundle\geo\domain\repositories\schema;
 
 use yii2rails\domain\enums\RelationEnum;
 use yii2rails\domain\repositories\relations\BaseSchema;
@@ -8,7 +8,7 @@ use yii2rails\domain\repositories\relations\BaseSchema;
 /**
  * Class PhoneSchema
  * 
- * @package yii2lab\geo\domain\repositories\schema
+ * @package yii2bundle\geo\domain\repositories\schema
  * 
  */
 class PhoneSchema extends BaseSchema {

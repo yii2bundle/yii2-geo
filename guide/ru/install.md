@@ -46,7 +46,7 @@ return [
 	'modules' => [
 	    ...
         'geo' => [
-            'class' => 'yii2lab\geo\api\Module',
+            'class' => 'yii2bundle\geo\api\Module',
         ],
         ...
 	],
@@ -73,7 +73,7 @@ return [
 		// ...
 		'geo' => [
 			'class' => 'yii2rails\domain\Domain',
-			'path' => 'yii2lab\geo\domain',
+			'path' => 'yii2bundle\geo\domain',
 			'repositories' => [
 				'region',
 				'city',

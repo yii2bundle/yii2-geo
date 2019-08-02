@@ -1,13 +1,13 @@
 <?php
 
-namespace yii2lab\geo\domain\entities;
+namespace yii2bundle\geo\domain\entities;
 
 use yii2rails\domain\BaseEntity;
 
 /**
  * Class PhoneEntity
  * 
- * @package yii2lab\geo\domain\entities
+ * @package yii2bundle\geo\domain\entities
  *
  * @property $id
  * @property $country

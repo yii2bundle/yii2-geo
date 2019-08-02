@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\geo\domain\entities;
+namespace yii2bundle\geo\domain\entities;
 
 use yii2rails\domain\BaseEntity;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\geo\api;
+namespace yii2bundle\geo\api;
 
 use yii\base\Module as YiiModule;
 

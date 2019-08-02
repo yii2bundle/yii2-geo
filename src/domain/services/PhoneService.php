@@ -1,23 +1,23 @@
 <?php
 
-namespace yii2lab\geo\domain\services;
+namespace yii2bundle\geo\domain\services;
 
 use Yii;
 use yii\base\InvalidArgumentException;
 use yii\web\NotFoundHttpException;
 use yii2rails\domain\data\Query;
-use yii2lab\geo\domain\entities\PhoneEntity;
-use yii2lab\geo\domain\helpers\PhoneHelper;
-use yii2lab\geo\domain\interfaces\services\PhoneInterface;
+use yii2bundle\geo\domain\entities\PhoneEntity;
+use yii2bundle\geo\domain\helpers\PhoneHelper;
+use yii2bundle\geo\domain\interfaces\services\PhoneInterface;
 use yii2rails\domain\services\base\BaseActiveService;
 
 /**
  * Class PhoneService
  * 
- * @package yii2lab\geo\domain\services
+ * @package yii2bundle\geo\domain\services
  * 
- * @property-read \yii2lab\geo\domain\Domain $domain
- * @property-read \yii2lab\geo\domain\interfaces\repositories\PhoneInterface $repository
+ * @property-read \yii2bundle\geo\domain\Domain $domain
+ * @property-read \yii2bundle\geo\domain\interfaces\repositories\PhoneInterface $repository
  */
 class PhoneService extends BaseActiveService implements PhoneInterface {
 

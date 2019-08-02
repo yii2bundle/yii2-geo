@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\geo\domain\repositories\ar;
+namespace yii2bundle\geo\domain\repositories\ar;
 
 use yii2rails\extension\activeRecord\repositories\base\BaseActiveArRepository;
 

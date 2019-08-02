@@ -1,13 +1,13 @@
 <?php
 
-namespace yii2lab\geo\domain\interfaces\repositories;
+namespace yii2bundle\geo\domain\interfaces\repositories;
 
 /**
  * Interface CurrencyTransferInterface
  * 
- * @package yii2lab\geo\domain\interfaces\repositories
+ * @package yii2bundle\geo\domain\interfaces\repositories
  * 
- * @property-read \yii2lab\geo\domain\interfaces\repositories\PhoneInterface $phone
+ * @property-read \yii2bundle\geo\domain\interfaces\repositories\PhoneInterface $phone
  */
 interface CurrencyTransferInterface {
 	

@@ -6,10 +6,10 @@ use yii2lab\test\helpers\DataHelper;
 use yii2lab\test\Test\Unit;
 use yii2rails\domain\BaseEntity;
 use yii2rails\domain\data\Query;
-use yii2lab\geo\domain\fixtures\GeoCityFixture;
-use yii2lab\geo\domain\fixtures\GeoCountryFixture;
-use yii2lab\geo\domain\fixtures\GeoCurrencyFixture;
-use yii2lab\geo\domain\fixtures\GeoRegionFixture;
+use yii2bundle\geo\domain\fixtures\GeoCityFixture;
+use yii2bundle\geo\domain\fixtures\GeoCountryFixture;
+use yii2bundle\geo\domain\fixtures\GeoCurrencyFixture;
+use yii2bundle\geo\domain\fixtures\GeoRegionFixture;
 
 class CityTest extends Unit
 {

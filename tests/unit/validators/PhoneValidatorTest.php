@@ -3,8 +3,8 @@
 namespace tests\unit\validators;
 
 use yii\base\Model;
-use yii2lab\geo\domain\helpers\PhoneHelper;
-use yii2lab\geo\domain\validators\PhoneValidator;
+use yii2bundle\geo\domain\helpers\PhoneHelper;
+use yii2bundle\geo\domain\validators\PhoneValidator;
 use yii2lab\test\Test\Unit;
 
 class PhoneValidatorTest extends Unit {

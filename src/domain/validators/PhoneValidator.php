@@ -1,11 +1,11 @@
 <?php
 
-namespace yii2lab\geo\domain\validators;
+namespace yii2bundle\geo\domain\validators;
 
 use App;
 use yii\base\InvalidArgumentException;
 use yii\validators\Validator;
-use yii2lab\geo\domain\helpers\PhoneHelper;
+use yii2bundle\geo\domain\helpers\PhoneHelper;
 
 class PhoneValidator extends Validator  {
 	

@@ -1,9 +1,9 @@
 <?php
 
-namespace yii2lab\geo\domain\repositories\nationalbankKz;
+namespace yii2bundle\geo\domain\repositories\nationalbankKz;
 
-use yii2lab\geo\domain\entities\CurrencyValueEntity;
-use yii2lab\geo\domain\interfaces\repositories\CurrencyTransferInterface;
+use yii2bundle\geo\domain\entities\CurrencyValueEntity;
+use yii2bundle\geo\domain\interfaces\repositories\CurrencyTransferInterface;
 use yii2rails\domain\repositories\BaseRepository;
 use yii2rails\extension\activeRecord\repositories\base\BaseActiveArRepository;
 

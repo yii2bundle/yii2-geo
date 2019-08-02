@@ -1,19 +1,19 @@
 <?php
 
-namespace yii2lab\geo\domain\interfaces\services;
+namespace yii2bundle\geo\domain\interfaces\services;
 
 use yii2rails\domain\data\Query;
 use yii2rails\domain\interfaces\services\CrudInterface;
-use yii2lab\geo\domain\entities\PhoneEntity;
-use yii2lab\geo\domain\entities\PhoneInfoEntity;
+use yii2bundle\geo\domain\entities\PhoneEntity;
+use yii2bundle\geo\domain\entities\PhoneInfoEntity;
 
 /**
  * Interface PhoneInterface
  * 
- * @package yii2lab\geo\domain\interfaces\services
+ * @package yii2bundle\geo\domain\interfaces\services
  * 
- * @property-read \yii2lab\geo\domain\Domain $domain
- * @property-read \yii2lab\geo\domain\interfaces\repositories\PhoneInterface $repository
+ * @property-read \yii2bundle\geo\domain\Domain $domain
+ * @property-read \yii2bundle\geo\domain\interfaces\repositories\PhoneInterface $repository
  */
 interface PhoneInterface extends CrudInterface {
 	

@@ -2,7 +2,7 @@
 
 namespace tests\unit\helpers;
 
-use yii2lab\geo\domain\helpers\PhoneHelper;
+use yii2bundle\geo\domain\helpers\PhoneHelper;
 use yii2lab\test\Test\Unit;
 
 class PhoneHelperTest extends Unit {

@@ -1,9 +1,9 @@
 <?php
 
-namespace yii2lab\geo\domain\helpers;
+namespace yii2bundle\geo\domain\helpers;
 
 use yii2rails\extension\common\helpers\StringHelper;
-use yii2lab\geo\domain\entities\PhoneInfoEntity;
+use yii2bundle\geo\domain\entities\PhoneInfoEntity;
 
 class PhoneHelper {
 	

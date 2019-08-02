@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\geo\widgets;
+namespace yii2bundle\geo\widgets;
 
 use Yii;
 use yii\base\Widget;

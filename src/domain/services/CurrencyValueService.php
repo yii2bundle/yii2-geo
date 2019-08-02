@@ -1,8 +1,8 @@
 <?php
 
-namespace yii2lab\geo\domain\services;
+namespace yii2bundle\geo\domain\services;
 
-use yii2lab\geo\domain\entities\CurrencyValueEntity;
+use yii2bundle\geo\domain\entities\CurrencyValueEntity;
 use yii2rails\domain\data\Query;
 use yii2rails\domain\services\base\BaseActiveService;
 use yii2rails\domain\values\TimeValue;

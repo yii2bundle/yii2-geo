@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\geo\domain\enums;
+namespace yii2bundle\geo\domain\enums;
 
 use yii2rails\extension\enum\base\BaseEnum;
 

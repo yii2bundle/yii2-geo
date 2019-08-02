@@ -1,20 +1,20 @@
 <?php
 
-namespace yii2lab\geo\domain;
+namespace yii2bundle\geo\domain;
 
 use yii2rails\domain\enums\Driver;
 
 /**
  * Class Domain
  * 
- * @package yii2lab\geo\domain
- * @property \yii2lab\geo\domain\services\RegionService $region
- * @property \yii2lab\geo\domain\services\CityService $city
- * @property \yii2lab\geo\domain\services\CountryService $country
- * @property \yii2lab\geo\domain\services\CurrencyService $currency
- * @property \yii2lab\geo\domain\services\CurrencyValueService $currencyValue
- * @property-read \yii2lab\geo\domain\interfaces\services\PhoneInterface $phone
- * @property-read \yii2lab\geo\domain\interfaces\repositories\RepositoriesInterface $repositories
+ * @package yii2bundle\geo\domain
+ * @property \yii2bundle\geo\domain\services\RegionService $region
+ * @property \yii2bundle\geo\domain\services\CityService $city
+ * @property \yii2bundle\geo\domain\services\CountryService $country
+ * @property \yii2bundle\geo\domain\services\CurrencyService $currency
+ * @property \yii2bundle\geo\domain\services\CurrencyValueService $currencyValue
+ * @property-read \yii2bundle\geo\domain\interfaces\services\PhoneInterface $phone
+ * @property-read \yii2bundle\geo\domain\interfaces\repositories\RepositoriesInterface $repositories
  */
 class Domain extends \yii2rails\domain\Domain {
 	
