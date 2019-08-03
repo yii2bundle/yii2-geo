@@ -3,8 +3,8 @@
 namespace tests\functional\services;
 
 use yii\web\NotFoundHttpException;
-use yii2lab\test\helpers\DataHelper;
-use yii2lab\test\Test\Unit;
+use yii2tool\test\helpers\DataHelper;
+use yii2tool\test\Test\Unit;
 
 class PhoneTest extends Unit {
 	
