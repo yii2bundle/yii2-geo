@@ -8,6 +8,7 @@ use yii2lab\db\domain\db\MigrationCreateTable as Migration;
 class m171207_104142_create_geo_region_table extends Migration
 {
 	public $table = '{{%geo_region}}';
+    public $tableComment = 'Регион/Область';
 
 	/**
 	 * @inheritdoc
